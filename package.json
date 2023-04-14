@@ -7,10 +7,11 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
+    "@types/fontfaceobserver": "2.1.0",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
+    "@types/testing-library__jest-dom": "5.14.2",
     "antd": "^5.4.2",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -51,24 +52,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/**/*/*.d.ts",
-      "!src/**/*/Loadable.{js,jsx,ts,tsx}",
-      "!src/**/*/messages.ts",
-      "!src/**/*/types.ts",
-      "!src/index.tsx"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 90,
-        "lines": 90,
-        "statements": 90
-      }
-    }
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.21.4"

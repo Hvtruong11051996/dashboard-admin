@@ -10,7 +10,7 @@ export function App() {
     <BrowserRouter>
       <Main>
         <Routes>
-          <Route path="/dashboard-admin" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Main>
     </BrowserRouter>

@@ -1,3 +1,18 @@
 .ant-layout {
   overflow: auto;
+  position: relative;
+  top: -4px;
+  background: #fafafa;
+
+  .ant-layout-content {
+    margin: 80px 10px 0px !important;
+  }
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #fff;
 }
