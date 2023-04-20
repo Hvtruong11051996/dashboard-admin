@@ -45,3 +45,33 @@
   background: rgb(155, 155, 155);
   border: 2px solid transparent;
 }
+
+.ant-card {
+  border: 0 solid transparent;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+.label-text {
+  color: #6c757d !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.font-14 {
+  font-size: 14px;
+  color: #6c757d !important;
+  font-weight: 400;
+}
+
+.text-info {
+  font-size: 1.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 5;
+}
+
+.mb {
+  margin: 5px 0;
+}
