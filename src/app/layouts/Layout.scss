@@ -5,6 +5,77 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 207px !important;
+  width: 235px !important;
   max-width: 300px !important;
+  color: #5f5f5f;
+  background: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.05) 2rem 4.25rem 4.6875rem 15rem;
+  margin-left: 15px;
+  height: 900px;
+  border-radius: 12px;
+  // border: 0.25px solid #5f5f5f;
+
+  .admin-logo {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-bottom: 0.25px solid rgba(123, 123, 123, 0.2588235294);
+
+    &__img {
+      width: 100%;
+      height: 63px;
+      object-fit: contain;
+    }
+  }
+
+  :where(.css-dev-only-do-not-override-htwhyh).ant-layout .ant-layout-sider {
+    position: relative;
+    min-width: 0;
+    transition: all 0.2s;
+    background: #fff !important;
+  }
+
+  .ant-menu,
+  .ant-menu-sub,
+  .ant-layout-sider {
+    color: #5f5f5f;
+    ;
+    background: #fff !important;
+  }
+
+  .ant-menu-submenu,
+  .ant-menu-item {
+    margin-top: 15px;
+  }
+
+  .ant-menu-item:hover {
+    color: #5f5f5f !important;
+  }
+
+  .ant-menu-item-selected:hover {
+    color: #fff !important;
+  }
+
+  .sidenav-label {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .ant-menu-submenu-arrow {
+    color: #5f5f5f;
+  }
+
+  .ant-menu-submenu-active {
+    // background-color: #5f5f5f;
+  }
+
+  a {
+    color: #5f5f5f;
+  }
+
+  .border-botton-sidenav {
+    border: 0.25px solid;
+    margin: 10px 0;
+    margin-left: 10px;
+  }
 }

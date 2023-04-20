@@ -17,9 +17,11 @@ const Main = ({ children }) => {
       <>
         <Sidenav />
       </>
-      <Layout className="site-layout" style={{ marginLeft: 200 }}>
+      <Layout className="site-layout" style={{ marginLeft: 245 }}>
         <HeaderNav />
-        <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>{children}</Content>
+        <Content className="admin-content" style={{ margin: '24px 16px 0', overflow: 'initial' }}>
+          {children}
+        </Content>
       </Layout>
     </Layout>
   );
