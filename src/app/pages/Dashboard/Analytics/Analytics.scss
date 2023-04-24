@@ -1,0 +1,21 @@
+.dashboard-analytics {
+
+  .text-analytics {
+    font-size: 1.5rem;
+    color: #0dcaf0;
+    font-weight: 600;
+  }
+
+  .analytics-icon {
+    background: linear-gradient(to right, #56ccf2, #2f80ed) !important;
+    border-radius: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bd-left {
+    border-left: 5px solid #2f80ed !important;
+  }
+}

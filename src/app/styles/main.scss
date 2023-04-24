@@ -46,15 +46,40 @@
   border: 2px solid transparent;
 }
 
+// ================== Custom Ant ====================== //
+.ant-card-body {
+  padding: 12px 20px !important
+}
+
 .ant-card {
   border: 0 solid transparent;
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
+.ant-card-head-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ant-input {
+  padding: 8px 11px;
+}
+
+.ant-btn {
+  height: 38px !important;
+}
+
+// =========================== //
+
 .label-text {
   color: #6c757d !important;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.label-header {
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -74,4 +99,22 @@
 
 .mb {
   margin: 5px 0;
+}
+
+.mb-header {
+  margin-bottom: 20px !important;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.admin-img {
+  width: 40px;
+  height: auto;
+}
+
+.d-center {
+  display: flex;
+  align-items: center;
 }
