@@ -42,6 +42,35 @@ export const items: MenuProps['items'] = [
     ],
   },
   {
+    label: menuLink('manage-account', 'Manage Account', '/manage-account', './images/management.png'),
+    key: 'manage-account',
+  },
+  {
+    label: menuLink('manage-users', 'Manage Users', '/manage-users', './images/management.png'),
+    key: 'manage-users',
+  },
+  {
+    label: menuLink('system-settings', 'System Settings', '/system-settings', './images/account.png'),
+    key: 'system-settings',
+  },
+
+  {
+    label: menuLink('post-management', 'Post Management', '/post-management', './images/chat.png'),
+    key: 'post-management',
+  },
+  {
+    label: menuLink('feedback', 'Feedback', '/feedback', './images/chat.png'),
+    key: 'feedback',
+  },
+  {
+    label: menuLink('notes', 'Notes', '/notes', './images/sticky-notes.png'),
+    key: 'notes',
+  },
+  {
+    label: menuLink('user-profile', 'User Profile', '/user-profile', './images/user.png'),
+    key: 'user-profile',
+  },
+  {
     label: menuLink('Authentication', 'Authentication'),
     key: 'authentication',
     children: [
@@ -54,34 +83,6 @@ export const items: MenuProps['items'] = [
         key: 'change-password',
       },
     ],
-  },
-  {
-    label: menuLink('user-profile', 'User Profile', '/user-profile', './images/user.png'),
-    key: 'user-profile',
-  },
-  {
-    label: menuLink('system-settings', 'System Settings', '/system-settings', './images/account.png'),
-    key: 'system-settings',
-  },
-  {
-    label: menuLink('manage-account', 'Manage Account', '/manage-account', './images/management.png'),
-    key: 'manage-account',
-  },
-  {
-    label: menuLink('manage-users', 'Manage Users', '/manage-users', './images/management.png'),
-    key: 'manage-users',
-  },
-  {
-    label: menuLink('post-management', 'Post Management', '/post-management', './images/chat.png'),
-    key: 'post-management',
-  },
-  {
-    label: menuLink('feedback', 'Feedback', '/feedback', './images/chat.png'),
-    key: 'feedback',
-  },
-  {
-    label: menuLink('notes', 'Notes', '/notes', './images/sticky-notes.png'),
-    key: 'notes',
   },
 ];
 

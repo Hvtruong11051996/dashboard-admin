@@ -62,12 +62,24 @@
   font-weight: 600;
 }
 
+.ant-input {
+  padding: 8px 11px;
+}
+
+.ant-btn {
+  height: 38px !important;
+}
 
 // =========================== //
 
 .label-text {
   color: #6c757d !important;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.label-header {
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -87,6 +99,14 @@
 
 .mb {
   margin: 5px 0;
+}
+
+.mb-header {
+  margin-bottom: 20px !important;
+}
+
+.ml {
+  margin-left: 15px;
 }
 
 .admin-img {
